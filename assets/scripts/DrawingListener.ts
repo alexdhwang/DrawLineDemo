@@ -6,7 +6,7 @@ interface Segment {
 }
 
 @ccclass
-export default class PhysicWorld extends cc.Component {
+export default class DrawingListener extends cc.Component {
 
     @property segmentRadius: number = 5.0;
 
